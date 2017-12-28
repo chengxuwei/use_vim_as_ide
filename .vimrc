@@ -81,9 +81,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'tomasr/molokai'
-Plugin 'vim-scripts/phd'
+Plugin 'flazz/vim-colorschemes'             " Colorschemes
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'nathanaelkane/vim-indent-guides'
@@ -115,11 +113,8 @@ filetype plugin indent on
 " <<<<
 
 " 配色方案
-set background=dark
-"colorscheme solarized
-"colorscheme molokai
-"colorscheme phd
-
+set t_Co=256                                " set 256 colors
+colorscheme wombat256mod                    " set color scheme
 " >>
 " 营造专注气氛
 
